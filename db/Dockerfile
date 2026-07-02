@@ -9,6 +9,7 @@ ENV MYSQL_PASSWORD=alumno123
 
 # Copiar el script de inicialización dentro de la imagen
 # Se ejecuta automáticamente la primera vez que se levante el contenedor
+#hola
 COPY init.sql /docker-entrypoint-initdb.d/
 
 # Exponer el puerto de MySQL
